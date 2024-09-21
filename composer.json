@@ -1,0 +1,32 @@
+{
+    "name": "mmnijas/service",
+    "description": "A Laravel package to generate service classes",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mmnijas\\Service\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mmnijas\\Service\\ServiceGeneratorServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Nijas M M",
+            "email": "mmnijas@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support": "^11.23",
+        "illuminate/console": "^11.23"
+    }
+}
