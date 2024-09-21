@@ -3,7 +3,7 @@
 namespace Mmnijas\Service;
 
 use Illuminate\Support\ServiceProvider;
-use YourVendor\ServiceGenerator\Commands\MakeService;
+use Mmnijas\Service\Commands\MakeService;
 
 class ServiceGeneratorServiceProvider extends ServiceProvider
 {
