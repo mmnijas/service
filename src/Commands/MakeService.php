@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\ServiceGenerator\Commands;
+namespace Mmnijas\Service\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputArgument;
